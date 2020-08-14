@@ -51,7 +51,7 @@ const submitPost = (e) =>{
         <input type='text' name='director' value={item.director} onChange={changeHandler}/>
         <input type='text' name='metascore' value={item.metascore} onChange={changeHandler}/>
         <input type='text' name='stars' value={item.stars} onChange={changeHandler}/>
-        <button>Update</button>
+        <button className='btn'>Update</button>
         </div>
         </form>
     )
